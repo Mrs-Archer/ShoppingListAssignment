@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 50px;
+  background-color: rgb(153, 24, 24);
+  text-align: center;
+}
+
+footer {
+  height: 50px;
+  background-color: rgb(153, 24, 24);
+  text-align: center;
+  color: black;
+}
+
+section {
+  min-height: calc(100vh - 100px);
+  display: flex;
+  justify-content: center;
+}
+
+.la header text {
+  color: rgb(231, 101, 14);
+  font-size: 70px;
+}
+.la-all-elements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.la-title {
+  color: rgb(231, 101, 14);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 70px;
+}
+
+.la-shopping-list-input {
+  background-color: rgb(228, 228, 110);
+  padding: 10px;
+  width: 90%;
+  border-width: 10px;
+  border-color: orange;
+  margin-top: 60px;
+  font-size: 30px;
+}
+
+.la-button {
+  background-color: orange;
+  padding: 20px;
+  margin-top: 60px;
+  border-width: 3px;
+  justify-content: center;
+  font-size: 15px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.la-button:hover {
+  background-color: rgb(226, 147, 1);
+}
+
+.la-warning-message {
+  color: rgba(238, 14, 14, 0.897);
+}
+
+.la-input-container {
+  position: relative;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.la-input-container > .la-warning-message {
+  position: absolute;
+  bottom: 0;
+}
+
+.la-check-box {
+  transform: scale(2);
+}
+
+.la-shopping-list {
+  position: relative;
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+.la-task-item-remove {
+  padding: 7px;
+  background-color: red;
+  border-radius: 5px;
+  font-size: bold;
+  margin-left: 20px;
+}
+
+.la-task-list-item-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.la-cross-out-item {
+  text-decoration: line-through;
+}
